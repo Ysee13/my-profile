@@ -1,0 +1,68 @@
+/* 1. Design global */
+body {
+    background-color: #F7F7F7; /* Le gris clair du fond */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* 2. Le conteneur qui centre tout au milieu */
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+/* 3. Le style des "cartes" blanches */
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* 4. Personnalisation des titres et images */
+h1 {
+    font-family: 'Lora', serif;
+    color: #2E3131;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #2E3131;
+}
+
+.img-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* 5. Le bouton bleu */
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-blue:hover {
+    background-color: #4A51C5;
+}
+
+/* 6. La liste des réseaux sociaux */
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0 10px;
+}
